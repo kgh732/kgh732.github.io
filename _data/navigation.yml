@@ -5,7 +5,7 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Coding Test"
-    url: /categories/codingTest
+    url: /categories/codingTest/
 
   - title: "Portfolio"
     url: /portfolio
