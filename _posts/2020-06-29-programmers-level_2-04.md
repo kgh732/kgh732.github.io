@@ -11,7 +11,7 @@ tags:
   - Stack/Queue
   - Python
 
-date: 2020-06-28
+date: 2020-06-29
 last_modified_at: 2020-08-03
 use_math: true
 toc: true # Show table of contents
