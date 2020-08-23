@@ -136,7 +136,7 @@ def bfs(start):
 - **좌,우 이동**을 통해 방문할 노드 `(현재 name_list,현재 위치,조이스틱 이동횟수)` 를 `queue`에 담은 후 위의 과정을 반복한다.
 
 -
-![programmers-level_2-14-2](/assets/img/programmers-level_2-14-2.jpg)
+![programmers-level_2-14-1](/assets/img/programmers-level_2-14-2.jpg)
 
 - `방문순서`:`BAB->AAB(left)->AAB(right)->AAA(left)`
 
@@ -194,7 +194,7 @@ def solution(name):
 	2. 큐의 최상단 노드에게 방문하지 않은 인접노드가 하나라도 있으면 그 노드를 큐에 넣고 방문 처리한다. 방문하지 않은 인접노드가 없으면 큐에서 최상단 노드를 꺼낸다.
 	3. 2번의 과정을 더 이상 수행할 수 없을 때까지 반복한다.
 
-![programmers-level_2-14-1](/assets/img/programmers-level_2-14-1.jpg)
+![programmers-level_2-14-2](/assets/img/programmers-level_2-14-2.jpg)
 
 ## 코드
 
