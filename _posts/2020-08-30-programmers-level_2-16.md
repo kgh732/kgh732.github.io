@@ -53,7 +53,7 @@ brown	|yellow	|return
 def solution(brown, yellow):
     inner_width=1 # 내부 노란색 가로 길이
     inner_height=1# 내부 노락색 세로 길이
-\
+
     for a in range(1,yellow+1):
         if 0==yellow%a: # ab=yellow
             inner_width=a # a
