@@ -77,11 +77,11 @@ if __name__=="__main__":
 
 ![programmers-level_2-16-2](/assets/img/programmers-level_2-16-2.jpg)
 
-\[
+$$
 \begin{cases}
 a\cdot b=yellow\\
 (a+2)\cdot(b+2)=brown\\
 \end{cases}(a=inner_width , b=inner_height)
-\]
+$$
 
 - 위의 식을 만족하는 **a** 와 **b** 값을 찾는 것이다.
