@@ -33,6 +33,7 @@ toc_sticky: true # Fixed table of contents
 1|	1|	1|	1
 1	|1	|1	|1
 0|	0|	1|	0
+
 가 있다면 가장 큰 정사각형은
 
 1|	2|	3|	4
@@ -41,6 +42,7 @@ toc_sticky: true # Fixed table of contents
 1|	`1`|	`1`|	`1`
 1	|`1`|	`1`	|`1`
 0	|0|	1	|0
+
 가 되며 넓이는 9가 되므로 9를 반환해 주면 됩니다.
 
 **제한사항**
@@ -155,7 +157,7 @@ $$
 - 그렇다면 **DP** 와 **Divide & Conquer**의 차이점은 무엇인가?
 	- **Divide & Conquer** : 분할된 문제들은 서로 **disjoint**.
 	분할정복의 대표적인 예인 **Quick sort**의 경우  **pivot** 을 기준으로 두 부분문제로 나뉘며 서로 **disjoint.**
-	즉, 오른쪽의 계산결과가 왼쪽에 전혀 영향을 끼치지 않으며, 분할된 문제를 해결함으로써 원래 문제를 해결한다.
+	즉, **오른쪽의 계산결과가 왼쪽에 전혀 영향을 끼치지 않으며, 분할된 문제를 해결함으로써 원래 문제를 해결한다.**
 	![programmers-level_2-18-3](/assets/img/programmers-level_2-18-3.png)
 
 	- **DP** :  분할된 문제들은 서로 **overlap**.
