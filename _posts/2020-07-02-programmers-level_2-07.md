@@ -190,7 +190,7 @@ def kth_smallest(nums, k):
   return kth_min
 
 ```
-####[응용] 힙정렬
+#### [응용] 힙정렬
 ```python
 def heap_sorting(nums):
   heap=[]
